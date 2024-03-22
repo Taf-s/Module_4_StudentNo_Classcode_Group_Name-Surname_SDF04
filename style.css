@@ -44,11 +44,86 @@ p {
     transition: all 0.3s ease;
     position: relative;
     display: block;
-    margin: 0 auto 20px; /* Center and add margin to stack vertically */
+    margin: 0 auto 20px;
+    /* Center and add margin to stack vertically */
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
 }
 
-/* Add your custom styles for btn-1, btn-2, and btn-3 */
+/* Custom style for btn-1 */
+
+.btn-1 {
+    background: hsl(0, 50%, 50%);
+    background: linear-gradient(90deg, hsl(0, 100%, 50%) 20%, hsl(0, 50%, 100%) 100%);
+    border: none;
+}
+
+.btn-1:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-3px);
+}
+
+/* Custom style for btn-2 */
+
+.btn-2 {
+    position: relative;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #FFA07A, #FF7F50);
+    /* Initial background color palette */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    overflow: hidden;
+    /* Hide content overflow */
+}
+
+.btn-2::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(to right, #FFA07A, #FF7F50);
+    /* Initial background color palette */
+    z-index: -1;
+    border-radius: 10px;
+    /* Increase border radius to make it extend beyond the button */
+    box-shadow: 0 0 20px rgba(255, 160, 122, 0.5);
+    /* Add shadow to create the effect */
+    transition: transform 0.3s;
+    /* Add transition for smooth animation */
+}
+
+.btn-2:hover::before {
+    transform: scaleX(1.1) scaleY(1.3);
+}
+
+.btn-2:hover {
+    background: linear-gradient(to right, #6495ED, #4169E1);
+}
+
+/* Custom style for btn-3 */
+
+.btn-3 {
+    padding: 10px 20px;
+    background: #52c234;
+    background: -webkit-linear-gradient(to right, #a9aca8, #52c234);
+    background: linear-gradient(to left, #637423, #52c234);
+    color: white;
+    border: none;
+    border-radius: 0;
+    transition: border-radius 0.3s;
+}
+
+.btn-3:hover {
+    background: #52c234;
+    background: -webkit-linear-gradient(to left, #a9aca8, #52c234);
+    background: linear-gradient(to right, #637423, #52c234);
+    border-radius: 10px;
+}

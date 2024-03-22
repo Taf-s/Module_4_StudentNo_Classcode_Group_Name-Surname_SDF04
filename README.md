@@ -1,40 +1,27 @@
-# [SDF04] CSS Magic Buttons
+# SDF04 Project
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
+This is the readme file for the CSS button styling project 
 
-## Learning Goals
+## Description
 
-By completing this project, you will learn to:
+The purpose of the project was to style three buttons usin CSS. Applying different types of styling to each button. In order to do so I had to first clone the repository onto my local machine, style it in my code editor, commit the changes and push it back to my GitHub repository. 
 
-- Design engaging button animations with CSS.
-- Master the use of CSS transitions and animations for interactive effects.
+## Design Choices 
 
-![alt text](./images/image.png)
+For the project I chose to style my buttons using different colour paletes for each one. 
 
-## Project Overview
+For the first button, i went for a much more simpler design, using the hsl properties that highlghted a mostly red colour to the button, futher more, i then added some box shadows and a slight animation so that the button hovers on click. 
 
-### Time Estimate: 2 hours
+For the second button i opted for a much more sytlised approach. The initial colour palete of the button on view is a salmon colour palete, but then when you hover over it, it changes to blue colour palate. 
 
-## What you Need to Do:
+For the third button i went with a lime green colour palete. I changed the text inside the box to white so that its easier to read. The i applied some animation to make the border radius change from a box to rounded corners. 
 
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
+## Features 
 
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_4_StudentNo_Classcode_Group_Name-Surname_SDF04
+Overall i was quite pleased with the styling i chose for all the buttons, but the features i am particullarly proud of are: 
 
-2. **Write your CSS Styles**: Create your animations from scratch. You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
-
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
-
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the SDF04 project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+* the hover effect with the box shadow on button 1 
+* the colour change animation on button 2 
+* the animation on the border radius on button 3 
 
 
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the SDF04 project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
