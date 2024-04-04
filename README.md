@@ -27,3 +27,9 @@ Overall i was quite pleased with the styling i chose for all the buttons, but th
 ## Technologies Used 
 
 *CSS for styling the buttons 
+
+## Loom Video Link 
+
+https://www.loom.com/share/ef9ee117f8d44f38b3524e9b9aab0ef7?sid=a3d63d7a-aef3-4efe-8da4-472c22644b0d
+
+
