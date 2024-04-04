@@ -26,4 +26,4 @@ Overall i was quite pleased with the styling i chose for all the buttons, but th
 
 ## Technologies Used 
 
-*CSS for th styling of the buttons 
+*CSS for styling the buttons 
