@@ -24,4 +24,6 @@ Overall i was quite pleased with the styling i chose for all the buttons, but th
 * the colour change animation on button 2 
 * the animation on the border radius on button 3 
 
+## Technologies Used 
 
+*CSS for th styling of the buttons 
